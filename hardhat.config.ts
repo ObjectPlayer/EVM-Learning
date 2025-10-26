@@ -30,6 +30,7 @@ const config: HardhatUserConfig = {
     sepolia: {
       url: RPC_ENDPOINT_SEPOLIA_NETWORK,
       accounts: [PRIVATE_KEY_ACCOUNT_SEPOLIA, PRIVATE_KEY_ACCOUNT2_SEPOLIA],
+      chainId: 11155111,
     },
   },
   etherscan: {
